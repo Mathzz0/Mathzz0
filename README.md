@@ -1,61 +1,67 @@
 <p align="center">
-  <img src="./assets/portfolio-header.svg" width="100%" alt="Matheus Odorico — Portfólio técnico em ServiceNow, ITSM, IA e automação" />
+  <img src="./assets/portfolio-header.svg" width="100%" alt="Matheus Odorico — ServiceNow, ITSM, Service Desk, automação e inteligência artificial" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheus-odorico-09a027216">
-    <img src="https://img.shields.io/badge/LinkedIn-Conectar-1473B8?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn: conectar" />
-  </a>
-  <a href="https://github.com/Mathzz0?tab=repositories">
-    <img src="https://img.shields.io/badge/GitHub-Ver_projetos-202C3D?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Ver repositórios no GitHub" />
-  </a>
+  <strong>ServiceNow & ITSM</strong> · <strong>Service Desk</strong> · <strong>Workflow Automation</strong> · <strong>Generative AI</strong>
 </p>
 
-### Tecnologia, processos e soluções práticas.
-
-Sou **Matheus Odorico**, graduando em **Ciência da Computação na UniAnchieta**, no período noturno, com conclusão prevista para **dezembro de 2027**. Tenho formação profissional concluída em **ServiceNow (Facul IV2)**, experiência com CRM e suporte técnico-operacional, e desenvolvo projetos digitais com auxílio de **inteligência artificial**.
-
-Meu foco de carreira é conectar **ServiceNow / ITSM**, **automação de processos** e **desenvolvimento de software** a problemas reais.
+<p align="center">
+  <a href="https://www.linkedin.com/in/matheus-odorico-09a027216">LinkedIn</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="./docs/estudo-de-caso-itsm.md">Estudo de caso ITSM</a>
+  &nbsp;&nbsp;•&nbsp;&nbsp;
+  <a href="https://github.com/Mathzz0?tab=repositories">Repositórios</a>
+</p>
 
 ---
 
-### Áreas de atuação e aprendizado
+### Olá, sou o Matheus.
 
-| Foco | Experiência e conhecimentos |
+Sou graduando em **Ciência da Computação na UniAnchieta** (período noturno, conclusão prevista para **dezembro de 2027**) e concluí uma **formação profissional em ServiceNow pela Facul IV2**.
+
+Meu objetivo é atuar em **TI**, especialmente com **ServiceNow, IT Service Management (ITSM), Service Desk, suporte técnico e automação de processos**. Tenho experiência profissional com **CRM, organização de fluxos e operações técnicas** e desenvolvo projetos de aplicativos, sites e jogos com auxílio de **IA generativa**.
+
+### Foco técnico
+
+| Área | Conhecimentos e atividades |
 | :-- | :-- |
-| **ServiceNow · ITSM** | Formação concluída; fundamentos de incidentes, requisições e fluxos de atendimento |
-| **IA · Automação** | Desenvolvimento assistido com ChatGPT, Claude e Codex; prototipação e revisão |
-| **Aplicações · Jogos** | Sites, aplicações, Roblox Studio, mecânicas de jogo e testes funcionais |
-| **Operações técnicas** | CRM, processos operacionais e atualização de bases aeronáuticas Garmin |
+| **ServiceNow / ITSM** | Formação concluída; fundamentos de gerenciamento de serviços e processos de atendimento |
+| **Suporte e processos** | CRM, suporte técnico, documentação, organização operacional e resolução de problemas |
+| **Automação e IA** | ChatGPT, Claude, Codex, engenharia de prompts e desenvolvimento assistido por IA |
+| **Desenvolvimento** | Aplicativos, sites, Roblox Studio, lógica de jogos, testes e prototipação |
+| **Aviação executiva** | Suporte técnico-operacional e atualização de bases de dados aeronáuticas Garmin |
 
-### Portfólio em destaque
+**Temas em aprofundamento:** Incident Management · Request Management · Flow Designer · Service Catalog · CMDB · SLA · Knowledge Management. *Tópicos de estudo, não certificações adicionais nem experiência de implantação em produção.*
+
+### Projeto em destaque — triagem ITSM
 
 <a href="./docs/estudo-de-caso-itsm.md">
-  <img src="./assets/itsm-workflow.svg" width="100%" alt="Estudo de caso conceitual de Service Desk e ITSM — abrir documentação" />
+  <img src="./assets/itsm-workflow.svg" width="100%" alt="Abrir estudo de caso de Incident Management, triagem e fluxo ITSM" />
 </a>
 
-**[Explorar o estudo de caso: fluxo de atendimento ITSM](./docs/estudo-de-caso-itsm.md)**
+**[Ver documentação, diagrama de fluxo e critérios de teste](./docs/estudo-de-caso-itsm.md)**  
+**[Explorar o exemplo em Python](./examples/itsm_triage.py)** · **[Ver os testes automatizados](./examples/test_itsm_triage.py)**
 
-Um **estudo conceitual**, com diagrama de triagem de incidentes e solicitações, modelo de campos, regras de automação e cenários de teste. **Não é uma implantação concluída no ServiceNow.**
+Pequeno protótipo educacional **executável**, com regras ilustrativas de prioridade, encaminhamento de incidentes e validação de entradas. O exemplo foi validado com **7 testes unitários**, sem dependências externas. **Não é uma integração com o ServiceNow.**
 
-**Jogo multiplayer · Roblox Studio** &nbsp; `EM DESENVOLVIMENTO`  
-Projeto com mecânicas, interface, progressão e fluxos multiplayer. **Repositório privado;** código não divulgado.
+### Outros projetos
 
-**Aplicativos, sites e ferramentas com IA** &nbsp; `PROJETOS EM PREPARAÇÃO`  
-Experimentação com protótipos e desenvolvimento assistido por IA. Documentação e demonstrações serão publicadas após revisão.
+- **Jogo multiplayer no Roblox Studio** — mecânicas, interface, progressão, inventário e testes. *Código privado / em desenvolvimento.*
+- **Aplicativos, sites e sistemas com IA** — projetos desenvolvidos com assistência de modelos generativos. *Demonstrações públicas em preparação.*
 
-### Formação e evolução contínua
+### Formação
 
-- **Ciência da Computação** — UniAnchieta · **2024–2027** (previsão de conclusão: dezembro/2027).
-- **Formação profissional em ServiceNow** — Facul IV2 · **concluída**.
-- **Power BI e Power Automate** — Microsoft Learn · **estudos planejados**.
+- **Ciência da Computação — UniAnchieta** · 2024–2027 · período noturno · conclusão prevista para **dez/2027**.
+- **Formação Profissional em ServiceNow — Facul IV2** · concluída.
+- **Power BI e Power Automate — Microsoft Learn** · estudos planejados, ainda não apresentados como concluídos.
 
-### Objetivo profissional
-
-Busco oportunidades para evoluir em **ServiceNow, ITSM, Service Desk, suporte de TI e automação**, contribuindo com organização de processos, atenção técnica e disposição para aprender.
+---
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheus-odorico-09a027216"><strong>Vamos conversar pelo LinkedIn</strong></a>
-  &nbsp; · &nbsp;
-  <a href="./docs/estudo-de-caso-itsm.md"><strong>Ver estudo técnico</strong></a>
+  <strong>Em busca de oportunidades para desenvolver minha carreira em TI.</strong>
+  <br />
+  <a href="https://www.linkedin.com/in/matheus-odorico-09a027216">Conecte-se comigo no LinkedIn</a>
 </p>
+
+<sub>Identidade visual autoral inspirada em tons associados à ServiceNow. Portfólio pessoal independente, sem afiliação ou endosso da empresa.</sub>
