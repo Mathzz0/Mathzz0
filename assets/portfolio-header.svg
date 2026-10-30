@@ -1,60 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
-<title id="title">Matheus Odorico — Portfólio Técnico</title>
-<desc id="desc">Cabeçalho de tecnologia com tipografia, fluxos de automação e interface abstrata de instrumentos aeronáuticos.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="390" viewBox="0 0 1280 390" role="img" aria-labelledby="title description">
+<title id="title">Matheus Odorico — ServiceNow, ITSM e automação</title>
+<desc id="description">Identidade visual independente, inspirada nas cores verde-escuro e verde-sálvia associadas à ServiceNow. Apresenta um fluxo conceitual de atendimento de TI.</desc>
 <defs>
-  <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080F1D"/><stop offset=".55" stop-color="#101E32"/><stop offset="1" stop-color="#0B1425"/></linearGradient>
-  <radialGradient id="glow"><stop stop-color="#19D9C6" stop-opacity=".20"/><stop offset="1" stop-color="#19D9C6" stop-opacity="0"/></radialGradient>
-  <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#47D4C7"/><stop offset="1" stop-color="#77A9FF"/></linearGradient>
-  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#193C70"/><stop offset="1" stop-color="#225E8B"/></linearGradient>
-  <linearGradient id="earth" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#70523C"/><stop offset="1" stop-color="#372B27"/></linearGradient>
-  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#95B4DA" stroke-opacity=".075" stroke-width=".8"/></pattern>
-  <clipPath id="screen"><rect x="942" y="122" width="218" height="204" rx="10"/></clipPath>
+<linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#142728"/><stop offset=".6" stop-color="#293E40"/><stop offset="1" stop-color="#1C3031"/></linearGradient>
+<linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#62D84E"/><stop offset="1" stop-color="#81B5A1"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#62D84E" stop-opacity=".17"/><stop offset="1" stop-color="#62D84E" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" stroke="#BCE5D5" stroke-width=".6" stroke-opacity=".09" fill="none"/></pattern>
 </defs>
-<rect width="1280" height="440" rx="20" fill="url(#base)"/>
-<rect width="1280" height="440" rx="20" fill="url(#grid)"/>
-<circle cx="1000" cy="176" r="372" fill="url(#glow)"/>
-<path d="M0 402H1280" stroke="url(#line)" stroke-opacity=".55" stroke-width="2"/>
-<rect x="1" y="1" width="1278" height="438" rx="19" fill="none" stroke="#3A526A" stroke-width="1"/>
-<rect x="64" y="57" width="35" height="35" rx="10" fill="#20354B" stroke="#40CBBF"/>
-<path d="M74 80V69L82 76L90 69V80" fill="none" stroke="#68E0D3" stroke-linejoin="round" stroke-width="2.5"/>
-<text x="114" y="80" fill="#B1C5DC" font-size="17" font-family="Arial,Helvetica,sans-serif" font-weight="bold" letter-spacing="3.2">DEVELOPER PORTFOLIO</text>
-<text x="64" y="173" fill="#F6FAFF" font-size="77" font-family="Arial,Helvetica,sans-serif" font-weight="bold" letter-spacing="-3">MATHEUS</text>
-<text x="64" y="251" fill="#F6FAFF" font-size="77" font-family="Arial,Helvetica,sans-serif" font-weight="bold" letter-spacing="-3">ODORICO<tspan fill="#52D8CB">.</tspan></text>
-<rect x="66" y="278" width="66" height="4" rx="2" fill="url(#line)"/>
-<text x="66" y="316" fill="#D3E3F3" font-size="23" font-family="Arial,Helvetica,sans-serif" font-weight="bold">ServiceNow &amp; ITSM</text>
-<circle cx="299" cy="307" r="3" fill="#5BD5CD"/>
-<text x="317" y="316" fill="#D3E3F3" font-size="23" font-family="Arial,Helvetica,sans-serif" font-weight="bold">AI &amp; Automation</text>
-<text x="66" y="374" fill="#94ACC6" font-size="17" font-family="Arial,Helvetica,sans-serif" letter-spacing="1.1">CIÊNCIA DA COMPUTAÇÃO  /  JUNDIAÍ, SP</text>
-<rect x="830" y="55" width="386" height="327" rx="19" fill="#0D1829" stroke="#436080" stroke-width="1.5"/>
-<rect x="830" y="55" width="386" height="49" rx="19" fill="#1C3047"/>
-<rect x="830" y="80" width="386" height="24" fill="#1C3047"/>
-<circle cx="859" cy="78" r="6" fill="#E67B84"/><circle cx="879" cy="78" r="6" fill="#E5C276"/><circle cx="899" cy="78" r="6" fill="#6BCCB2"/>
-<text x="935" y="83" fill="#BDD1E4" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="bold" letter-spacing="1.5">FLIGHT SYSTEMS / DATA</text>
-<rect x="848" y="123" width="81" height="203" rx="9" fill="#15263B" stroke="#354B65"/>
-<text x="860" y="146" fill="#66E0CF" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold">SYNC</text>
-<rect x="861" y="168" width="55" height="7" rx="3" fill="#2D4A57"/><rect x="861" y="168" width="42" height="7" rx="3" fill="#58D8B8"/>
-<text x="860" y="197" fill="#AFC5DA" font-family="Arial,Helvetica,sans-serif" font-size="12">NAV DATA</text>
-<rect x="861" y="213" width="55" height="6" rx="3" fill="#234157"/><rect x="861" y="213" width="48" height="6" rx="3" fill="#6CA7F7"/>
-<text x="860" y="242" fill="#AFC5DA" font-family="Arial,Helvetica,sans-serif" font-size="12">WORKFLOW</text>
-<path d="M867 276H900M900 276V300" fill="none" stroke="#4DCDBE" stroke-width="3" stroke-linecap="round"/>
-<circle cx="867" cy="276" r="5" fill="#55D3C1"/><circle cx="900" cy="276" r="5" fill="#6A9DF6"/><circle cx="900" cy="300" r="5" fill="#55D3C1"/>
-<g clip-path="url(#screen)">
-  <rect x="942" y="122" width="218" height="204" fill="#0A1829"/>
-  <rect x="942" y="122" width="218" height="99" fill="url(#sky)"/>
-  <rect x="942" y="221" width="218" height="105" fill="url(#earth)"/>
-  <path d="M942 221H1160" stroke="#F3EEE8" stroke-width="2"/>
-  <path d="M1051 130V314M947 222H1154" stroke="#EAF4FF" stroke-opacity=".25" stroke-width="1"/>
-  <path d="M991 211H1019L1051 224L1083 211H1111M1012 241H1090" fill="none" stroke="#E9F8FF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="1051" cy="222" r="68" fill="none" stroke="#DDEAFF" stroke-opacity=".56" stroke-width="1.8" stroke-dasharray="4 7"/>
-  <path d="M1035 222H1067M1051 206V238" stroke="#58DDD0" stroke-width="2"/>
-  <rect x="955" y="137" width="45" height="21" rx="4" fill="#0D2035" stroke="#3E657E"/>
-  <text x="977" y="152" text-anchor="middle" fill="#8EEFD7" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold">DATA</text>
-  <rect x="1103" y="137" width="43" height="21" rx="4" fill="#0D2035" stroke="#3E657E"/>
-  <text x="1125" y="152" text-anchor="middle" fill="#9BC4FF" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold">OK</text>
-  <text x="1051" y="302" text-anchor="middle" fill="#DEECF4" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1">SYSTEMS ONLINE</text>
+<rect width="1280" height="390" rx="22" fill="url(#background)"/>
+<rect width="1280" height="390" rx="22" fill="url(#grid)"/>
+<circle cx="1100" cy="160" r="325" fill="url(#glow)"/>
+<rect x="1" y="1" width="1278" height="388" rx="21" stroke="#81B5A1" stroke-opacity=".5" fill="none"/>
+<path d="M64 56H715" stroke="#81B5A1" stroke-opacity=".36"/>
+<rect x="64" y="30" width="54" height="54" rx="13" fill="#354D49" stroke="#81B5A1"/>
+<text x="91" y="66" fill="#DAF8E9" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="bold" text-anchor="middle">M/O</text>
+<text x="135" y="64" fill="#CFE7DB" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="bold" letter-spacing="2.5">PORTFÓLIO TÉCNICO</text>
+<text x="64" y="174" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-weight="bold" font-size="76" letter-spacing="-2.4">MATHEUS</text>
+<text x="64" y="254" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-weight="bold" font-size="76" letter-spacing="-2.4">ODORICO<tspan fill="#62D84E">.</tspan></text>
+<rect x="65" y="281" width="92" height="5" rx="2.5" fill="url(#accent)"/>
+<text x="65" y="327" fill="#D4E9DE" font-family="Arial,Helvetica,sans-serif" font-size="23" font-weight="bold">ServiceNow  ·  ITSM  ·  Automação  ·  IA</text>
+<text x="65" y="361" fill="#B1C9BE" font-family="Arial,Helvetica,sans-serif" font-size="15" letter-spacing="1.8">CIÊNCIA DA COMPUTAÇÃO  •  JUNDIAÍ, SP</text>
+<rect x="818" y="36" width="390" height="318" rx="20" fill="#16282A" stroke="#81B5A1" stroke-width="1.5"/>
+<rect x="818" y="36" width="390" height="56" rx="20" fill="#3A5350"/>
+<rect x="818" y="66" width="390" height="26" fill="#3A5350"/>
+<circle cx="845" cy="64" r="6" fill="#A8B9AF"/><circle cx="866" cy="64" r="6" fill="#81B5A1"/><circle cx="887" cy="64" r="6" fill="#62D84E"/>
+<text x="920" y="70" fill="#EDF7F1" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" letter-spacing="1.1">ITSM / WORKFLOW</text>
+<text x="840" y="119" fill="#B6D3C5" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1.6">PROCESS MAP</text>
+<rect x="840" y="137" width="346" height="148" rx="14" fill="#203436" stroke="#4B6B63"/>
+<path d="M877 204H930M975 204H1030M1075 204H1129" stroke="#81B5A1" stroke-width="4" stroke-linecap="round"/>
+<path d="M921 198L930 204L921 210M1021 198L1030 204L1021 210M1120 198L1129 204L1120 210" stroke="#81B5A1" stroke-width="2" fill="none"/>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+<circle cx="857" cy="204" r="19" fill="#345448" stroke="#62D84E" stroke-width="3"/><text x="857" y="209" fill="#F0FFF0">01</text>
+<circle cx="957" cy="204" r="19" fill="#345448" stroke="#81B5A1" stroke-width="3"/><text x="957" y="209" fill="#F0FFF0">02</text>
+<circle cx="1057" cy="204" r="19" fill="#345448" stroke="#81B5A1" stroke-width="3"/><text x="1057" y="209" fill="#F0FFF0">03</text>
+<circle cx="1157" cy="204" r="19" fill="#345448" stroke="#62D84E" stroke-width="3"/><text x="1157" y="209" fill="#F0FFF0">04</text>
 </g>
-<rect x="942" y="122" width="218" height="204" rx="10" fill="none" stroke="#496782" stroke-width="1.5"/>
-<text x="849" y="355" fill="#7D9AB6" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.5">01 / ITSM</text>
-<text x="965" y="355" fill="#7D9AB6" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.5">02 / AI</text>
-<text x="1060" y="355" fill="#7D9AB6" font-family="Arial,Helvetica,sans-serif" font-size="12" letter-spacing="1.5">03 / OPS</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#DFEEE5" text-anchor="middle">
+<text x="857" y="250">Open</text><text x="957" y="250">Triage</text><text x="1057" y="250">Assign</text><text x="1157" y="250">Close</text>
+</g>
+<circle cx="845" cy="316" r="5" fill="#62D84E"/>
+<text x="859" y="322" fill="#C9E8D5" font-family="Arial,Helvetica,sans-serif" font-size="14">Processo conceitual • Portfólio independente</text>
 </svg>
