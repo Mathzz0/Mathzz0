@@ -1,51 +1,61 @@
 <p align="center">
-  <img src="assets/portfolio-header.svg" alt="Matheus Odorico — portfólio técnico em ServiceNow, automação e inteligência artificial" width="100%" />
+  <img src="./assets/portfolio-header.svg" width="100%" alt="Matheus Odorico — Portfólio técnico em ServiceNow, ITSM, IA e automação" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/matheus-odorico-09a027216">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Mathzz0?tab=repositories">Repositórios</a>
-  &nbsp;·&nbsp;
-  Jundiaí, SP — Brasil
+  <a href="https://www.linkedin.com/in/matheus-odorico-09a027216">
+    <img src="https://img.shields.io/badge/LinkedIn-Conectar-1473B8?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn: conectar" />
+  </a>
+  <a href="https://github.com/Mathzz0?tab=repositories">
+    <img src="https://img.shields.io/badge/GitHub-Ver_projetos-202C3D?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Ver repositórios no GitHub" />
+  </a>
 </p>
 
-### Olá, sou o Matheus.
+### Tecnologia, processos e soluções práticas.
 
-Estudo **Ciência da Computação na UniAnchieta**, no período noturno, com conclusão prevista para **dezembro de 2027**. Concluí formação profissional em **ServiceNow pela Facul IV2** e quero direcionar minha carreira para **TI, ITSM, suporte técnico e automação de processos**.
+Sou **Matheus Odorico**, graduando em **Ciência da Computação na UniAnchieta**, no período noturno, com conclusão prevista para **dezembro de 2027**. Tenho formação profissional concluída em **ServiceNow (Facul IV2)**, experiência com CRM e suporte técnico-operacional, e desenvolvo projetos digitais com auxílio de **inteligência artificial**.
 
-Tenho experiência com **CRM e processos operacionais** e desenvolvo projetos digitais com apoio de **inteligência artificial generativa**. Minha atuação profissional na aviação executiva também inclui atualização e verificação de bases de dados de navegação em sistemas Garmin.
-
-### Áreas de conhecimento
-
-| Área | Experiência e aprendizado |
-|:--|:--|
-| **ServiceNow & ITSM** | Formação profissional concluída; estudos sobre incidentes, requisições e fluxos de serviço |
-| **Automação & IA** | Uso de ChatGPT, Claude e Codex para prototipação, desenvolvimento assistido e revisão |
-| **Desenvolvimento** | Criação de aplicativos, sites e mecânicas de jogos; Roblox Studio e testes funcionais |
-| **Operações técnicas** | CRM, organização de processos e bases de dados aviônicas Garmin |
-
-### Projetos em desenvolvimento
-
-**Jogo multiplayer — Roblox Studio**  
-Desenvolvimento de mecânicas de jogo, interface, inventário e fluxos multiplayer. O código do projeto ainda não está publicado neste perfil.
-
-**Aplicações, sites e automações com IA**  
-Protótipos e soluções digitais desenvolvidos com assistência de modelos generativos. Demonstrações públicas serão adicionadas conforme os projetos forem revisados.
-
-**ServiceNow / ITSM — portfólio prático**  
-Próximo objetivo: documentar um fluxo demonstrativo de atendimento de chamados, com prioridades, etapas e regras de encaminhamento. *Projeto planejado; ainda não publicado.*
-
-### Formação e próximos estudos
-
-- **Bacharelado em Ciência da Computação** — UniAnchieta · conclusão prevista: dez/2027
-- **Formação Profissional em ServiceNow** — Facul IV2 · concluída
-- **Microsoft Learn** — Power BI e Power Automate · estudos planejados
+Meu foco de carreira é conectar **ServiceNow / ITSM**, **automação de processos** e **desenvolvimento de software** a problemas reais.
 
 ---
 
+### Áreas de atuação e aprendizado
+
+| Foco | Experiência e conhecimentos |
+| :-- | :-- |
+| **ServiceNow · ITSM** | Formação concluída; fundamentos de incidentes, requisições e fluxos de atendimento |
+| **IA · Automação** | Desenvolvimento assistido com ChatGPT, Claude e Codex; prototipação e revisão |
+| **Aplicações · Jogos** | Sites, aplicações, Roblox Studio, mecânicas de jogo e testes funcionais |
+| **Operações técnicas** | CRM, processos operacionais e atualização de bases aeronáuticas Garmin |
+
+### Portfólio em destaque
+
+<a href="./docs/estudo-de-caso-itsm.md">
+  <img src="./assets/itsm-workflow.svg" width="100%" alt="Estudo de caso conceitual de Service Desk e ITSM — abrir documentação" />
+</a>
+
+**[Explorar o estudo de caso: fluxo de atendimento ITSM](./docs/estudo-de-caso-itsm.md)**
+
+Um **estudo conceitual**, com diagrama de triagem de incidentes e solicitações, modelo de campos, regras de automação e cenários de teste. **Não é uma implantação concluída no ServiceNow.**
+
+**Jogo multiplayer · Roblox Studio** &nbsp; `EM DESENVOLVIMENTO`  
+Projeto com mecânicas, interface, progressão e fluxos multiplayer. **Repositório privado;** código não divulgado.
+
+**Aplicativos, sites e ferramentas com IA** &nbsp; `PROJETOS EM PREPARAÇÃO`  
+Experimentação com protótipos e desenvolvimento assistido por IA. Documentação e demonstrações serão publicadas após revisão.
+
+### Formação e evolução contínua
+
+- **Ciência da Computação** — UniAnchieta · **2024–2027** (previsão de conclusão: dezembro/2027).
+- **Formação profissional em ServiceNow** — Facul IV2 · **concluída**.
+- **Power BI e Power Automate** — Microsoft Learn · **estudos planejados**.
+
+### Objetivo profissional
+
+Busco oportunidades para evoluir em **ServiceNow, ITSM, Service Desk, suporte de TI e automação**, contribuindo com organização de processos, atenção técnica e disposição para aprender.
+
 <p align="center">
-  <strong>Interesses profissionais:</strong> ServiceNow · ITSM · Service Desk · Suporte de TI · Automação
-  <br /><br />
-  <a href="https://www.linkedin.com/in/matheus-odorico-09a027216"><strong>Conecte-se comigo pelo LinkedIn</strong></a>
+  <a href="https://www.linkedin.com/in/matheus-odorico-09a027216"><strong>Vamos conversar pelo LinkedIn</strong></a>
+  &nbsp; · &nbsp;
+  <a href="./docs/estudo-de-caso-itsm.md"><strong>Ver estudo técnico</strong></a>
 </p>
