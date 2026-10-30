@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Matheus Odorico, tecnologia, ServiceNow, automação e inteligência artificial">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111D32"/><stop offset="1" stop-color="#0A1221"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#5FE0D2"/><stop offset="1" stop-color="#71A8FF"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#304261" stroke-width=".7" opacity=".24"/></pattern>
+  </defs>
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="21" fill="none" stroke="#334860"/>
+  <rect width="1200" height="320" rx="22" fill="url(#grid)"/>
+  <rect x="58" y="56" width="6" height="34" rx="3" fill="#5FE0D2"/>
+  <text x="83" y="76" fill="#91A7C1" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" letter-spacing="3">PORTFÓLIO TÉCNICO</text>
+  <text x="58" y="155" fill="#F4F7FC" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="bold" letter-spacing="-1.2">MATHEUS ODORICO</text>
+  <text x="60" y="195" fill="#B7C6D8" font-family="Arial, Helvetica, sans-serif" font-size="22">Ciência da Computação  •  ServiceNow &amp; ITSM</text>
+  <path d="M60 223H600" stroke="#354965" stroke-width="2"/>
+  <text x="60" y="258" fill="#72DACF" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold">AUTOMAÇÃO</text>
+  <circle cx="217" cy="251" r="3" fill="#6F88AA"/>
+  <text x="236" y="258" fill="#83B8F7" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="bold">INTELIGÊNCIA ARTIFICIAL</text>
+  <rect x="758" y="54" width="374" height="209" rx="16" fill="#142238" stroke="#416078"/>
+  <rect x="758" y="54" width="374" height="36" rx="16" fill="#22334A"/>
+  <rect x="758" y="75" width="374" height="15" fill="#22334A"/>
+  <circle cx="786" cy="72" r="5" fill="#EF827D"/><circle cx="807" cy="72" r="5" fill="#F4C66E"/><circle cx="828" cy="72" r="5" fill="#6DD4AF"/>
+  <text x="948" y="78" text-anchor="middle" fill="#C2D3E7" font-family="Arial, Helvetica, sans-serif" font-size="12">WORKFLOW / TECH</text>
+  <path d="M813 148H942M942 148L958 132H1030" fill="none" stroke="#62D8CC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M942 148L958 181H1030" fill="none" stroke="#719FF0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="813" cy="148" r="18" fill="#1D4E52" stroke="#62D8CC" stroke-width="3"/>
+  <circle cx="1030" cy="132" r="18" fill="#213A60" stroke="#719FF0" stroke-width="3"/>
+  <circle cx="1030" cy="181" r="18" fill="#1D4E52" stroke="#62D8CC" stroke-width="3"/>
+  <text x="813" y="153" fill="#E7FCF9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">01</text>
+  <text x="1030" y="137" fill="#E4F0FF" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">02</text>
+  <text x="1030" y="186" fill="#E7FCF9" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold">03</text>
+  <text x="820" y="231" fill="#AFC6DC" font-family="Arial, Helvetica, sans-serif" font-size="14">processos  →  soluções</text>
+</svg>
