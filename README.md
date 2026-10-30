@@ -41,7 +41,7 @@ Meu objetivo é atuar em **TI**, especialmente com **ServiceNow, IT Service Mana
 </a>
 
 **[Ver documentação, diagrama de fluxo e critérios de teste](./docs/estudo-de-caso-itsm.md)**  
-**[Explorar o exemplo em Python](./examples/itsm_triage.py)** · **[Ver os testes automatizados](./examples/test_itsm_triage.py)**
+**[Código Python](./examples/itsm_triage.py)** · **[Testes unitários](./examples/test_itsm_triage.py)** · **[Pipeline GitHub Actions](./.github/workflows/itsm-tests.yml)**
 
 Pequeno protótipo educacional **executável**, com regras ilustrativas de prioridade, encaminhamento de incidentes e validação de entradas. O exemplo foi validado com **7 testes unitários**, sem dependências externas. **Não é uma integração com o ServiceNow.**
 
