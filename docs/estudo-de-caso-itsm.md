@@ -1,71 +1,97 @@
-# Estudo de caso | Fluxo de atendimento ITSM
+# Estudo de caso: triagem de chamados de TI (ITSM)
 
-> **Status: estudo conceitual para portfólio.** Este material descreve uma proposta de processo de Service Desk e **não representa uma implementação concluída no ServiceNow**. O cenário e os registros apresentados são fictícios; não contêm dados de clientes.
+**Tema:** Service Desk · Incident Management · IT Service Management (ITSM) · Workflow Automation  
+**Status:** documentação conceitual + protótipo educacional **executável e testado** em Python.  
+**Limites:** não é uma aplicação instalada no ServiceNow e não acessa APIs, contas, chamados reais ou dados de terceiros.
 
-## 1. Problema
+## 1. Problema e objetivo
 
-Uma equipe de suporte recebe incidentes e solicitações por diferentes canais. Sem classificação padronizada, é difícil priorizar, atribuir responsabilidades e acompanhar o andamento dos chamados.
+Em operações de Service Desk, incidentes chegam com diferentes graus de impacto e urgência. Uma triagem consistente ajuda a definir a prioridade inicial e encaminhar o registro para o grupo adequado.
 
-**Objetivo:** propor um fluxo simples, rastreável e orientado a boas práticas de gerenciamento de serviços de TI.
+Este estudo demonstra uma abordagem pequena, determinística e auditável para essa primeira etapa. **Não pretende reproduzir todas as regras de ITIL ou de uma instância ServiceNow.**
 
 ## 2. Fluxo proposto
 
 ```mermaid
 flowchart TD
-    A[Registro de chamado] --> B{Tipo de atendimento}
-    B -->|Incidente| C[Classificar impacto e urgência]
-    B -->|Solicitação| D[Verificar catálogo e aprovações]
-    C --> E[Definir prioridade e grupo]
-    E --> F[Investigar e registrar ações]
-    F --> G{Resolvido?}
-    G -->|Não| H[Escalar ou solicitar informações]
-    H --> F
-    G -->|Sim| I[Confirmar solução]
-    D --> J[Executar solicitação]
-    J --> I
-    I --> K[Encerrar e registrar histórico]
+    A[Registro do incidente] --> B[Validar informações]
+    B --> C{Categoria válida?}
+    C -->|Não| X[Solicitar correção]
+    C -->|Sim| D[Definir impacto e urgência]
+    D --> E[Calcular prioridade ilustrativa]
+    E --> F[Determinar grupo de atendimento]
+    F --> G[Retornar resultado de triagem]
+    G --> H[Investigação e resolução futuras]
 ```
 
-## 3. Dados mínimos de um incidente
+O protótipo executável cobre **validação, classificação e encaminhamento inicial**. Investigação, notificações, SLA, aprovação e encerramento são temas de evolução, **não funcionalidades implementadas**.
 
-| Campo | Finalidade |
-| --- | --- |
-| Número | Identificação única do registro |
-| Solicitante | Pessoa ou área afetada, usando dados de teste |
-| Descrição breve | Resumo claro do problema |
-| Categoria / subcategoria | Classificação para roteamento e relatórios |
-| Impacto + urgência | Insumos para a definição da prioridade |
-| Grupo responsável | Equipe encarregada do atendimento |
-| Estado | Novo, Em andamento, Aguardando, Resolvido, Encerrado |
-| Histórico de trabalho | Registro das ações, atualizações e encaminhamentos |
-| Resolução | O que foi feito e como a solução foi validada |
+## 3. Modelo simplificado
 
-## 4. Regras e automações candidatas
+| Campo | Tipo | Descrição |
+| --- | --- | --- |
+| `category` | texto | `access`, `hardware` ou `software` |
+| `impact` | inteiro 1–3 | 1 representa maior impacto |
+| `urgency` | inteiro 1–3 | 1 representa maior urgência |
+| `assignment_group` | texto | Grupo fictício definido pela categoria |
+| `priority` | texto | P1 a P4, conforme matriz ilustrativa |
+| `state` | texto | `new`, estado inicial do exemplo |
 
-1. **Classificação inicial:** coletar categoria, impacto e urgência no cadastro do incidente.
-2. **Roteamento:** atribuir o grupo correto a partir do tipo de chamado, com possibilidade de correção manual.
-3. **Notificações:** informar o solicitante sobre mudanças relevantes de estado.
-4. **Escalonamento:** sinalizar chamados perto do prazo de atendimento definido pela organização.
-5. **Encerramento:** solicitar confirmação quando aplicável e manter histórico de resolução.
+### Matriz de prioridade do protótipo
 
-> Prazos de SLA, regras de prioridade e requisitos de aprovação dependem do serviço e da política da organização. Não há prazos de produção definidos neste estudo.
+| Impacto ↓ / Urgência → | 1 (alta) | 2 (média) | 3 (baixa) |
+| --- | :---: | :---: | :---: |
+| **1 (alto)** | P1 | P2 | P3 |
+| **2 (médio)** | P2 | P3 | P4 |
+| **3 (baixo)** | P3 | P4 | P4 |
 
-## 5. Casos de teste sugeridos
+**Atenção:** esta matriz é fictícia. Não define SLAs, política oficial de prioridade, regras de produção ou uma configuração padrão ServiceNow.
 
-- **CT-01:** um incidente novo recebe número, estado e classificação válidos.
-- **CT-02:** alterar impacto/urgência atualiza a prioridade conforme a matriz configurada.
-- **CT-03:** a atribuição encaminha o chamado ao grupo correto e preserva o histórico.
-- **CT-04:** um incidente sem solução pode ser escalado sem perder registros anteriores.
-- **CT-05:** uma solicitação segue seu fluxo específico de aprovação/execução, sem ser tratada como incidente.
+## 4. Código funcional (Python)
 
-## 6. Próximos passos para implementação
+Fonte: **[examples/itsm_triage.py](../examples/itsm_triage.py)**  
+Testes: **[examples/test_itsm_triage.py](../examples/test_itsm_triage.py)**
 
-- Prototipar o processo em uma instância de aprendizado do ServiceNow.
-- Documentar tabelas, formulários e regras realmente implementadas.
-- Executar os testes com dados fictícios e capturar evidências.
-- Publicar resultados e limitações **somente depois da validação prática**.
+O código utiliza apenas a biblioteca padrão do Python (3.10+) e não requer instalação de pacotes nem credenciais.
+
+Execute na raiz do repositório:
+
+```bash
+python3 examples/itsm_triage.py --category access --impact 1 --urgency 2
+```
+
+Saída esperada:
+
+```json
+{
+  "category": "access",
+  "assignment_group": "Identity & Access",
+  "impact": 1,
+  "urgency": 2,
+  "priority": "P2",
+  "state": "new"
+}
+```
+
+Para rodar os testes:
+
+```bash
+python3 -m unittest discover -s examples -p "test_*.py" -v
+```
+
+**Cobertura:** nove combinações de prioridade; normalização da categoria; roteamento; entradas inválidas; estado inicial e interface de linha de comando. Os **sete métodos de teste** foram executados com sucesso no ambiente de desenvolvimento antes da publicação.
+
+## 5. Próximas etapas de aprendizado
+
+- Estudar a configuração real de **Incident Management** e **Request Management** no ServiceNow.
+- Experimentar **Flow Designer**, **Service Catalog**, **CMDB**, **SLA** e **Knowledge Management** em ambiente educacional.
+- Registrar capturas, scripts e evidências somente depois de implementados e testados.
+- Revisar as regras de negócio com o contexto da empresa antes de qualquer uso real.
+
+## 6. Segurança e transparência
+
+O exemplo usa categorias, equipes e dados **fictícios**. Não há tokens, segredos, chamadas de rede, integração com banco de dados nem dados pessoais. Este material é parte de um portfólio independente, **não afiliado nem endossado pela ServiceNow**.
 
 ---
 
-**Autor do portfólio:** [Matheus Odorico](https://github.com/Mathzz0) · [LinkedIn](https://www.linkedin.com/in/matheus-odorico-09a027216)  
-**Natureza:** estudo educacional e conceitual, sem integração com sistemas de produção.
+[← Voltar ao perfil de Matheus Odorico](../README.md) · [LinkedIn](https://www.linkedin.com/in/matheus-odorico-09a027216)
