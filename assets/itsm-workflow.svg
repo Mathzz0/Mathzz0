@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="280" viewBox="0 0 1120 280" role="img" aria-labelledby="t d">
+<title id="t">Estudo de caso — fluxo ITSM</title>
+<desc id="d">Card de portfólio com um fluxo conceitual de registro, triagem, atendimento e encerramento de chamados.</desc>
+<defs>
+<linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12243A"/><stop offset="1" stop-color="#091522"/></linearGradient>
+<linearGradient id="a" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#53DCC7"/><stop offset="1" stop-color="#8AB4FF"/></linearGradient>
+</defs>
+<rect x="1" y="1" width="1118" height="278" rx="22" fill="url(#b)" stroke="#38536C" stroke-width="2"/>
+<rect x="39" y="40" width="162" height="30" rx="15" fill="#1D4447" stroke="#4BCDB7"/>
+<text x="120" y="60" text-anchor="middle" fill="#8EF1DA" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="bold" letter-spacing="1.2">ESTUDO CONCEITUAL</text>
+<text x="40" y="123" fill="#F3F8FF" font-size="34" font-weight="bold" font-family="Arial,Helvetica,sans-serif">Service Desk / ITSM</text>
+<text x="40" y="161" fill="#B8CDE3" font-size="18" font-family="Arial,Helvetica,sans-serif">Fluxo de incidentes e solicitações</text>
+<path d="M40 190H365" stroke="#3A5A70" stroke-width="1"/>
+<text x="40" y="228" fill="#69DCC9" font-size="16" font-weight="bold" font-family="Arial,Helvetica,sans-serif">TRIAGEM  ·  ROTEAMENTO  ·  SLA</text>
+<g font-family="Arial,Helvetica,sans-serif" text-anchor="middle" font-weight="bold" font-size="14">
+<rect x="440" y="107" width="138" height="60" rx="12" fill="#203A50" stroke="#6FDACA" stroke-width="2"/><text x="509" y="142" fill="#E5F9F8">REGISTRO</text>
+<rect x="615" y="107" width="138" height="60" rx="12" fill="#203A50" stroke="#6FDACA" stroke-width="2"/><text x="684" y="142" fill="#E5F9F8">TRIAGEM</text>
+<rect x="790" y="107" width="138" height="60" rx="12" fill="#203A50" stroke="#83AEF6" stroke-width="2"/><text x="859" y="142" fill="#E5F0FF">ATENDIMENTO</text>
+<rect x="965" y="107" width="122" height="60" rx="12" fill="#203A50" stroke="#83AEF6" stroke-width="2"/><text x="1026" y="142" fill="#E5F0FF">FECHO</text>
+</g>
+<g fill="none" stroke="url(#a)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+<path d="M581 137H605M596 130L605 137L596 144"/>
+<path d="M756 137H780M771 130L780 137L771 144"/>
+<path d="M931 137H955M946 130L955 137L946 144"/>
+</g>
+<circle cx="509" cy="99" r="4" fill="#60D8C9"/><circle cx="684" cy="99" r="4" fill="#60D8C9"/><circle cx="859" cy="99" r="4" fill="#7BAAF3"/><circle cx="1026" cy="99" r="4" fill="#7BAAF3"/>
+<text x="765" y="213" text-anchor="middle" fill="#849FB8" font-family="Arial,Helvetica,sans-serif" font-size="13">Documentação educacional • Sem integração em produção</text>
+</svg>
